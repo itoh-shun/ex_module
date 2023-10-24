@@ -1,0 +1,13 @@
+{
+    "name": "itoshun/ex_module",
+    "autoload": {
+        "classmap": ["src" , "spiral-framework/src"]
+    },
+    "authors": [
+        {
+            "name": "APKAVIFL7EWRG4EKB4U4",
+            "email": "ito.shun@pi-pe.co.jp"
+        }
+    ],
+    "require": {}
+}
