@@ -20,17 +20,11 @@
 <div class="body_tbl">
 
 {!! $exModuleSetting->output_before_header() !!}
-@php 
-echo SMP_TEMPLATE_HEADER;
-@endphp
+{!! SMP_TEMPLATE_HEADER !!}
 {!! $exModuleSetting->output_header() !!}
-@php 
-echo SMP_TEMPLATE_FORM;
-@endphp
+{!! SMP_TEMPLATE_FORM !!}
 {!! $exModuleSetting->output_contents() !!}
-@php 
-echo SMP_TEMPLATE_FOOTER;
-@endphp
+{!! SMP_TEMPLATE_FOOTER !!}
 {!! $exModuleSetting->output_footer() !!}
 
 </div>
