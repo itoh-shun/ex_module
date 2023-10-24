@@ -20,4 +20,4 @@ define('SMP_TEMPLATE_FOOTER','
 
 
 $customPath = "ex_module/input";
-require_once "ex_module/routes/web.php";
+require_once "ex_module_app/routes/web.php";
